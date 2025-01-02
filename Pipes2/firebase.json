@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "khymychipz11laba1-2"
+  },
+  "hosting": {
+    "public": "dist/pipes2",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

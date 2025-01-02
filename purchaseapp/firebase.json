@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "khymychipz11laba1"
+  },
+  "hosting": {
+    "public": "dist/purchaseapp",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
